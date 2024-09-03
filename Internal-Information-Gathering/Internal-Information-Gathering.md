@@ -50,7 +50,7 @@ Alternatively, we can set up our pivoting using Metasploit, as covered in the [M
 
 ![Copy payload](/Internal-Information-Gathering/images/scp.png) 
 
-	$ scp -i root.key evil.elf root@10.129.229.147
+	$ scp -i root.key evil.elf root@10.129.229.147:/tmp
 
 3. > - Now, we'll set up the **Metasploit exploit/multi/handler**. 
 
