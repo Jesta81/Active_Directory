@@ -30,7 +30,7 @@ We can confirm that the dynamic port forward is set up using Netstat or running 
 
 Next, we need to modify the **/etc/proxychains.conf** to use the port we specified with our dynamic port forwarding command (8081 here).
 
-![Proxychains Conf](/Internal-Information-Gathering/images/proxychaing-conf.png) 
+![Proxychains Conf](/Internal-Information-Gathering/images/proxychains-conf.png) 
 
 Next, we can use Nmap with Proxychains to scan the dmz01 host on its' second NIC, with the IP address **172.16.8.120** to ensure everything is set up correctly.
 
@@ -159,7 +159,7 @@ From the Nmap scan, we saw ports **80 and 2049 open**. Let's dig into each of th
 
 We can set this up in Firefox as follows:
 
-![Firefox SOCKS proxy](/Internal-Information-Gathering/images/firefox-proxy.png) 
+![Firefox SOCKS proxy](/Internal-Information-Gathering/images/firefox-socks.png) 
 
 > - Click on settings and type Proxy into the search bar.
 > - Click "Manual proxy configuration" 
